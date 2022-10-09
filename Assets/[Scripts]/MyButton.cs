@@ -17,8 +17,18 @@ public class MyButton : MonoBehaviour
         
     }
 
-    public void StartMenu()
+    public void GameMenu()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void EndMenu()
+    {
+        SceneManager.LoadScene(2);
     }
 }
