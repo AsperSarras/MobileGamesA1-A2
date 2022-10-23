@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ConstCell
+  - SpawnManager
+  - Enemy
+  - EnemyGround
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,8 +19,8 @@ TagManager:
   - Player
   - Walls
   - Enemies
-  - 
-  - 
+  - EnemyGround
+  - Bullet
   - 
   - 
   - 
